@@ -1,0 +1,45 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+p.side-label {
+  position: absolute;
+  top: 5%;
+  right: -65px;
+  transform-origin: 100% 87%;
+  transform: rotate(-90deg);
+  font-size: 190px;
+  line-height: 1;
+}
+
+.work-grid div{
+  position: relative;
+  padding-top: 100%;
+  cursor: pointer;
+  overflow: hidden;
+}
+  
+.work-grid div img{
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.modal-open{
+  overflow: hidden;
+}
+
+.profile-picture{
+  margin-right: -20%;
+}
+
+#mobile-nav-panel{
+  transition: all .5s;
+}
+
+/* .modal{
+  transition: all 2s;
+} */
